@@ -1,0 +1,28 @@
+{
+    "name": "smart/open-ai-bundle",
+    "description": "Symfony bundle for php's client",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smart\\OpenAiBundle\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Smart\\OpenAiBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giovanni Albero",
+            "email": "giovanni@smartstrategy.eu"
+        }
+    ],
+    "require": {
+        "orhanerday/open-ai": "^3.4",
+        "symfony/dependency-injection": "^5.4",
+        "symfony/http-kernel": "^5.4",
+        "symfony/config": "^5.4"
+    }
+}
